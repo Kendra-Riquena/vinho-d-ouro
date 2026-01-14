@@ -50,10 +50,45 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    line-height: 42.7px;
+    font-weight: 700;
+    color: var(--bg-light);
+    margin-bottom: 48px;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    width: 312px;
+    padding: 20px 0;
+    font-family: "Merriweather";
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         width: 648px;
         margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 53.3px;
+        width: 410px;
+    }
+
+    .button {
+        width: 320px;
     }
 }
 
@@ -61,6 +96,10 @@ body {
     .container {
         width: 1200px;
         margin: 0 auto;
+    }
+
+    h1 {
+        width: 578px;
     }
 }
 
