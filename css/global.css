@@ -33,4 +33,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
+
+body {
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--text-color);
+    background-color: var(--bg-light);
+}
+
+.container {
+    width: 312px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 648px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
