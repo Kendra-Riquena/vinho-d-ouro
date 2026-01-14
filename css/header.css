@@ -48,6 +48,10 @@ input[type="checkbox"]:checked ~ nav {
     font-family: "Merriweather";
 }
 
+.header-container nav a:hover{
+    color: var(--secondary-color);
+}
+
 .header-container nav .active a{
     color: var(--secondary-color);
     border-bottom: 1px solid var(--secondary-color);

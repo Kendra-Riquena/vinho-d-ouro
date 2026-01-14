@@ -1,3 +1,201 @@
 .description-home p {
     text-align: center;
 }
+
+.img-value-home {
+    background: url(../img/img-home-vinhedo-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 134px;
+    margin-bottom: 24px;
+}
+
+.style-home .style-home-list li {
+    list-style: disc;
+    margin-left: 24px;
+}
+
+.style-home .style-home-list li span {
+    font-family: "Merriweather";
+    font-weight: 700;
+}
+
+.container-style-home-img {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.img-style {
+    width: 144px;
+    height: 216px;
+}
+
+.image-style-home-1 {
+    background: url(../img/img-home-style-1-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.image-style-home-2 {
+    background: url(../img/img-home-style-2-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.contact-home-item {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    margin-bottom: 24px;
+}
+
+.icon-location {
+    height: 44px;
+}
+
+.icon-whatsapp {
+    width: 38px;
+    padding: 2px;
+}
+
+.icon-instagram {
+    width: 32px;
+    padding: 2px;
+}
+
+.contact-home-img {
+    background: url(../img/img-home-contact-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.contact-home-text {
+    font-family: "Merriweather";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 24px;
+}
+
+.contact-home form {
+    text-align: center;
+}
+
+.contact-home input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 15px;
+    color: var(--text-color);
+}
+
+.contact-home input::placeholder {
+    color: var(--secondary-color);
+}
+
+.contact-home button {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    margin: 24px auto 0;
+}
+
+@media screen and (min-width: 768px) {
+    .img-value-home {
+        background: url(../img/img-home-vinhedo-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 278px;
+    }
+
+    .img-style {
+        width: 312px;
+        height: 468px;
+    }
+
+    .image-style-home-1 {
+        background: url(../img/img-home-style-1-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .image-style-home-2 {
+        background: url(../img/img-home-style-2-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    .contact-home-img {
+        background: url(../img/img-home-contact-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 310px;
+    }
+
+    .contact-home-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contact-home input {
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container-value-home {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .container-value-home p {
+        width: 600px;
+    }
+    
+    .img-value-home {
+        width: 576px;
+        height: 248px;
+    }
+    
+    .container-syle-home {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .container-style-home-description {
+        width: 612px;
+    }
+
+    .img-style {
+        width: 266px;
+        height: 398px;
+    }
+
+    .image-style-home-1 {
+        background: url(../img/img-home-style-1-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .image-style-home-2 {
+        background: url(../img/img-home-style-2-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .container-contact-home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .contact-home-img {
+        background: url(../img/img-home-contact-desktop.jpg) no-repeat;
+        background-size: cover;
+        width: 735px;
+        height: 300px;
+    }
+}

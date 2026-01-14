@@ -73,7 +73,8 @@ h2 {
     margin-bottom: 48px;
 }
 
-.button {
+.button,
+button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: 1px solid var(--primary-color);
@@ -87,6 +88,17 @@ h2 {
     cursor: pointer;
     display: block;
     text-align: center;
+}
+
+.button:hover,
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--bg-dark);
+    border: 1px solid var(--secondary-color);
+}
+
+.margin-botton {
+    margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
