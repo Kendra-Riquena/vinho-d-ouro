@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Playfair Display";
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-VariableFont_opsz\,wdth\,wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --primary-color: #7A1F2B;
+    --secondary-color: #C9A24D;
+    
+    --text-color: #2B1A1A;
+
+    --bg-light: #F8F4EE;
+    --bg-dark: #1C1212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
