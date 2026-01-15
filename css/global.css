@@ -73,6 +73,13 @@ h2 {
     margin-bottom: 48px;
 }
 
+.destak {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--bg-light);
+}
+
 .button,
 button {
     background-color: var(--primary-color);
@@ -123,6 +130,10 @@ button:hover {
         line-height: 42.7px;
     }
 
+    .destak {
+        max-width: 460px;
+    }
+
     .button {
         width: 320px;
     }
@@ -136,6 +147,10 @@ button:hover {
 
     h1 {
         width: 578px;
+    }
+
+    .destak {
+        max-width: 670px;
     }
 }
 
