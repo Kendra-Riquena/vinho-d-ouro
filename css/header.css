@@ -1,0 +1,84 @@
+header {
+    background-color: var(--bg-dark);
+    padding: 25px 0;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo-mobile {
+    width: 37px;
+    height: 60px;
+}
+
+.img-logo-desktop {
+    display: none;
+}
+
+.img-menu {
+    width: 63px;
+    height: 40px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-dark);
+}
+
+.header-container nav {
+    display: none;
+} 
+
+.header-container nav li{
+    padding: 15px;
+} 
+
+.header-container nav a{
+    color: var(--bg-light);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "Merriweather";
+}
+
+.header-container nav a:hover{
+    color: var(--secondary-color);
+}
+
+.header-container nav .active a{
+    color: var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .img-logo-mobile {
+        display: none;
+    }
+
+    .img-logo-desktop {
+        display: block;
+        width: 74px;
+        height: 98px;
+    }
+
+    .img-menu {
+        display: none;
+    }
+
+    .header-container nav {
+        display: block;
+    }
+
+    .header-container nav .menu-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    } 
+}
