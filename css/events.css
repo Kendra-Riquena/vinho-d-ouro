@@ -1,0 +1,181 @@
+.img-journey {
+    background: url(../img/img-journey-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 208px;
+}
+
+.img-sensation {
+    background: url(../img/img-sensation-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 184px;
+}
+
+.container-harmony-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img-harmony-1 {
+    background: url(../img/img-harmony-1-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 172px;
+    height: 115px;
+}
+
+.img-harmony-2 {
+    background: url(../img/img-harmony-2-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 127px;
+    height: 115px;
+}
+
+.img-dinner {
+    background: url(../img/img-dinner-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+}
+
+.action p {
+    text-align: center;
+}
+
+.container-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;;
+}
+
+.container-action .action-button {
+    height: 65px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 0;
+}
+
+@media screen and (min-width:768px) {
+    .img-journey {
+        background: url(../img/img-journey-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 432px;
+    }
+
+    .img-sensation {
+        background: url(../img/img-sensation-tablet.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 385px;
+    }
+
+    .img-harmony-1 {
+        background: url(../img/img-harmony-1-tablet.jpg) no-repeat;
+        background-size: cover;
+        width: 362px;
+        height: 242px;
+    }
+
+    .img-harmony-2 {
+        background: url(../img/img-harmony-2-tablet.jpg) no-repeat;
+        background-size: cover;
+        width: 268px;
+        height: 242px;
+    }
+
+    .img-dinner {
+        background: url(../img/img-dinner-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .container-action .action-button {
+        width: 350px;
+        font-size: 20px;
+        line-height: auto;
+        padding: auto 0;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .container-journey {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .container-journey p {
+        width: 588px;
+    }
+
+    .img-journey {
+        background: url(../img/img-journey-desktop.jpg) no-repeat;
+        background-size: cover;
+        width: 588px;
+        height: 392px;
+    }
+
+    .container-sensation {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .container-sensation p {
+        width: 588px;
+    }
+
+    .img-sensation {
+        background: url(../img/img-sensation-desktop.jpg) no-repeat;
+        background-size: cover;
+        width: 588px;
+        height: 350px;
+    }
+
+    .container-harmony {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .container-harmony p {
+        width: 494px;
+    }
+
+    .container-harmony-img {
+        width: 682px;
+        height: 258px;
+    }
+
+    .img-harmony-1 {
+        background: url(../img/img-harmony-1-desktop.jpg) no-repeat;
+        background-size: cover;
+        width: 386px;
+    }
+
+    .img-harmony-2 {
+        background: url(../img/img-harmony-2-desktop.jpg) no-repeat;
+        background-size: cover;
+        width: 284px;
+    }
+
+    .img-dinner {
+        background: url(../img/img-dinner-mobile.jpg) no-repeat;
+        background-size: cover;
+        height: 490px;
+    }
+
+    .container-action {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 24px;
+    }
+}
