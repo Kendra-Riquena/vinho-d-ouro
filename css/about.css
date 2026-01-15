@@ -1,0 +1,95 @@
+.essence-img {
+    background: url(../img/img-essence-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 174px;
+    margin-top: 24px;
+}
+
+.img-social {
+    background: url(../img/img-social-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 24px;
+}
+
+.value-home .destak {
+    color: var(--text-color);
+    margin-bottom: 24px;
+}
+
+.terroir-img {
+    background: url(../img/img-terroir-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 158px;
+}
+
+.experience-img {
+    background: url(../img/img-experience-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+}
+
+@media screen and (min-width:768px) {
+    .essence-img {
+        background: url(../img/img-essence-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 300px;
+        margin-top: 24px;
+    }
+
+    .img-social {
+        background: url(../img/img-social-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 305px;
+    }
+
+    .terroir-img {
+        background: url(../img/img-terroir-tablet.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 328px;
+    }
+
+    .experience-img {
+        background: url(../img/img-experience-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 340px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .essence-img {
+        background: url(../img/img-essence-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 388px;
+        margin-top: 24px;
+    }
+
+    .container-terroir {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .terroir-img {
+        background: url(../img/img-terroir-tablet.jpg) no-repeat;
+        background-size: cover;
+        width: 588px;
+        height: 292px;
+    }
+
+    .container-terroir p {
+        width: 588px;
+    }
+
+    .experience-img {
+        background: url(../img/img-experience-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 490px;
+    }
+}
